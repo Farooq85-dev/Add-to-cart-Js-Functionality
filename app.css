@@ -1,0 +1,53 @@
+@import url(./responsiveness.css);
+
+* {
+  font-family: Roboto;
+}
+
+.navbar {
+  background-color: #653743 !important;
+}
+
+.navbar .logo {
+  color: #f3f3f3;
+}
+
+.navbar span {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar span #quantity {
+  color: #f3f3f3;
+  font-size: 20px;
+}
+
+.foooterSec {
+  background-color: #653743;
+}
+
+.foooterSec .footerCnt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foooterSec h2 {
+  color: #f3f3f3;
+}
+
+.foooterSec .socialMedia {
+  color: white;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/*# sourceMappingURL=app.css.map */
