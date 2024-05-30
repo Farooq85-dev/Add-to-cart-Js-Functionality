@@ -21,17 +21,33 @@
     <!-- Bootstrap Navbar -->
     <nav class="navbar bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand logo"><img src="./images/main-icon.png" width="50px" alt="">Cartea</a>
+            <a class="navbar-brand logo"><img src="./images/main-icon.png" width="50px" alt="">APNA CART</a>
             <form class="d-flex" role="search">
-                <div class="position-relative">
-                    <img src="./images/shopping-cart.png" alt="Shopping Cart" id="shoppingCart" width="50px">
+                <div class="position-relative ">
+                    <img src="./images/shopping-cart.png" alt="Shopping Cart" class="shopping" id="shoppingCart" width="50px">
                     <span id="quantity">0</span>
                 </div>
-                <div class="list"></div>
             </form>
         </div>
     </nav>
     <!-- End Bootstrap Navbar -->
+
+    <!-- Products Display here -->
+    <div class="container">
+        <div id="list"></div>
+    </div>
+    <!-- End Products Display here -->
+
+    <!-- Cart Section -->
+    <div class="cart">
+        <h1>APNA CART</h1>
+        <ul class="listCart"></ul>
+        <div class="checkOut">
+            <div id="total">0</div>
+            <div id="closeShopping">Close</div>
+        </div>
+    </div>
+    <!-- End Cart Section -->
 
     <!-- Footer  -->
     <div class="foooterSec">
